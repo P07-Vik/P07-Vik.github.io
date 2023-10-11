@@ -8,5 +8,73 @@
     background-position: center;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(blue-gradient.png);
     background-size: cover;
-    height: 200vh;
+    height: 109vh;
+    justify-content: center;
+}
+
+.navbar{
+    width: 1920px;
+    height: 75px;
+    margin: auto;
+}
+
+.menu{
+    float: left;
+    width: 500px;
+    height: 75px;
+}
+
+ul{
+    float: left;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 35px;
+    font-size: 18px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: wheat;
+    font-family: Georgia;
+    transition: 0.25s ease-in-out;
+}
+
+ul li a:hover{
+    color:darkorange;
+}
+
+#box{
+    background: linear-gradient(to bottom, #e9a469, darkorange);
+    border: 1px solid #696969;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px black;
+    width: 250px;
+    height: 30px;
+    margin-left: 80px;
+    margin-top: 10px;
+    justify-content: center;
+    top: 50%;
+}
+
+img{
+    width: 20%;
+    height: 20%;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding: 10px;
+    border-style: dashed;
+}
+
+.about{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
